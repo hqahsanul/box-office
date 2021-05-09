@@ -1,13 +1,20 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import Navs from './components/Navs';
 
 function App() {
   return (
-    <Switch>
-      <Route exact path="/">
-        Hello
-      </Route>
-    </Switch>
+    <>
+      <Navs />
+      <Switch>
+        <Route exact path="/">
+          Hello
+        </Route>
+        <Route exact path="/starred">
+          Starred
+        </Route>
+      </Switch>
+    </>
   );
 }
 
