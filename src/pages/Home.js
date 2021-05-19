@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ActorGrid from '../components/actor/ActorGrid';
+import ActorGrid from '../components/actor/ActorCard';
 import MainPageLayout from '../components/MainPageLayout';
 
 import ShowGrid from '../components/show/ShowGrid';
